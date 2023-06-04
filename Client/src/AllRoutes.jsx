@@ -6,6 +6,9 @@ import Auth from './Pages/Auth/Auth'
 import Questions from './Pages/Questions/Questions'
 import AskQuestion from './Pages/AskQuestion/AskQuestion'
 import DisplayQuestion from './Pages/Questions/DisplayQuestion'
+import Tags from './Pages/Tags/Tags'
+import Users from './Pages/Users/Users'
+import UserProfile from './Pages/UserProfile/UserProfile'
 
 
 const AllRoutes = () => {
@@ -13,9 +16,12 @@ const AllRoutes = () => {
     <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/Auth' element={<Auth />}/>      
-        <Route path='/Questions' element={<Questions />}></Route>
         <Route path='/AskQuestion' element={<AskQuestion />}></Route>
+        <Route path='/Questions' element={<Questions />}></Route>
         <Route path='/Questions/:id' element={<DisplayQuestion />}></Route>
+        <Route path='/Tags' element={<Tags />}></Route>
+        <Route path='/Users' element={<Users/>}></Route>
+        <Route path='/Users/:id' element={<UserProfile/>}></Route>
     </Routes>
   )
 }

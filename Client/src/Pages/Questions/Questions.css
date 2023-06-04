@@ -1,5 +1,5 @@
 .question-details-page{
-    width: 730px;
+    width: 700px;
     float: left;
     margin: 25px 0px;
     padding:0px;
@@ -9,7 +9,6 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: solid 1px rgba(0, 0, 0.112);
-    
 }
 
 .question-details-container-2{
